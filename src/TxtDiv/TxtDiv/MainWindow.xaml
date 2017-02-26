@@ -1,0 +1,10 @@
+﻿<Window x:Class="TxtDiv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" >
+    <Grid>
+        <TextBox Height="36" HorizontalAlignment="Left" Margin="0,159,0,0" Name="TxtBox" VerticalAlignment="Top" Width="279" Text="" />
+        <Button Content="Button" Height="36" HorizontalAlignment="Right" Margin="0,159,32,0" Name="Btn" VerticalAlignment="Top" Width="128" Click="Btn_Click" />
+        <TextBlock Margin="0,221,0,0" Name="TxtBlk" Text="" HorizontalAlignment="Left" Width="255" Height="19" VerticalAlignment="Top" />
+    </Grid>
+</Window>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="TxtDIv.exe" version="1.0.0.0" publicKeyToken="fae4df91a389ed5a" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Application.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TxtDIv" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TxtDIv.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Windows.Controls.DataVisualization.Toolkit.dll" size="278872">
+      <assemblyIdentity name="System.Windows.Controls.DataVisualization.Toolkit" version="3.5.40128.1" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TclcSZy+hi1Mak/M3nGyhp8H4nk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TxtDIv.exe" size="135168">
+      <assemblyIdentity name="TxtDIv" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7lZFrSR/GSNk9WPStah4KgTijrI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFToolkit.dll" size="467288">
+      <assemblyIdentity name="WPFToolkit" version="3.5.40128.1" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>AaJQYxOXyTxKq5p3eobjn9jYTwk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Application.ico" size="68768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Sc4UkxLtOCPZOPjIEiUVyXk/S5g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TxtDIv.exe.config" size="117">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a3Forh+i+nzyaONrpGeK7Sudu10=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=calvin-imp\calvin" issuerKeyHash="a17008c1c8414e11542018f3663c143c7f2aa397" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2EgAFZ+X/nrm83VxMKkYQcBPvlw=</DigestValue></Reference></SignedInfo><SignatureValue>1YJXBerxNvgTWMuK0io9hpTmohPkVocTfOS7N91C/bCZcGS5tSoGX/VL6WHBaP2iX57JwOt2zcOKKXJYGM8Jb//GSQoSaDs4DLes0MJhKdET6x+4WS8r8UfBzuS3wW2rNF9GJN1n7PuS++qRdhp8JX764TWt7Ml/VDuns3APvho=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1apnL0/8nHLK7TZL6UPyUssu9xqVYewWZuv/0v9OVrvRBC2HmQVPeft3wzIfzWEEtBhGUTzh24rG/nntzLNCR1koZk7Orw0pe8ojQy/i/pHJ3nSRjbgbVPmHUzQWQCXuG/mxdkOIMbQDG6lRj0CogIkmfrx480J1QJ2hw6RuDeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5cbe4fc04118a9307175f3e67afe979f150048d8" Description="" Url=""><as:assemblyIdentity name="TxtDIv.exe" version="1.0.0.0" publicKeyToken="fae4df91a389ed5a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=calvin-imp\calvin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>81FEJiMpPO7mxk9niHK/dDNpXMw=</DigestValue></Reference></SignedInfo><SignatureValue>wPfnBhz8dHXTPbHPrslj1NywPHyVAHptLbRTXhzj70eT1Mslfe06rht766HsbV+Kj/04gfSubfLfxaHUp5X2YRhEo3g0KdZGu3+dtJe7ArbuZ9xe3YomI17sYWnpbRx5Ush7YJHDewKyw1buVVwAnl5hiHPuSPy/ggC5sUWAtXw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1apnL0/8nHLK7TZL6UPyUssu9xqVYewWZuv/0v9OVrvRBC2HmQVPeft3wzIfzWEEtBhGUTzh24rG/nntzLNCR1koZk7Orw0pe8ojQy/i/pHJ3nSRjbgbVPmHUzQWQCXuG/mxdkOIMbQDG6lRj0CogIkmfrx480J1QJ2hw6RuDeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQHBvFRY9ajqxP1PDFWbz6pDANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIAYwBhAGwAdgBpAG4ALQBpAG0AcABcAGMAYQBsAHYAaQBuMB4XDTEyMDYyNTEwMDUyNFoXDTEzMDYyNTE2MDUyNFowLTErMCkGA1UEAx4iAGMAYQBsAHYAaQBuAC0AaQBtAHAAXABjAGEAbAB2AGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1apnL0/8nHLK7TZL6UPyUssu9xqVYewWZuv/0v9OVrvRBC2HmQVPeft3wzIfzWEEtBhGUTzh24rG/nntzLNCR1koZk7Orw0pe8ojQy/i/pHJ3nSRjbgbVPmHUzQWQCXuG/mxdkOIMbQDG6lRj0CogIkmfrx480J1QJ2hw6RuDeECAwEAATANBgkqhkiG9w0BAQUFAAOBgQCNWDW0vaK4pFU1GN8GQXMUibEx/3tnDkvkmuR5jXR985+BdoKDQpbcesMbcoS5uODBnT+7UFIfB7N3qXHp0NL6Qv2T5+CtdX/tI/mesSIs0RVRwUk87rHM4T3Hn1lGAeiHMnwJaJXD6SaenYM0h4VpUZCggZAH3DCvr+s++3yG7Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

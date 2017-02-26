@@ -1,0 +1,13 @@
+D:\毕业设计\TxtDiv\TxtDiv\bin\Debug\TxtDiv.exe
+D:\毕业设计\TxtDiv\TxtDiv\bin\Debug\TxtDiv.pdb
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\MainWindow.baml
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\MainWindow.g.cs
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\App.g.cs
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\TxtDiv_MarkupCompile.cache
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\TxtDiv.g.resources
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\TxtDiv.Properties.Resources.resources
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\TxtDiv.exe
+D:\毕业设计\TxtDiv\TxtDiv\obj\x86\Debug\TxtDiv.pdb
